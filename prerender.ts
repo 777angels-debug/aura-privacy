@@ -12,7 +12,7 @@ if (!fs.existsSync(indexHtmlPath)) {
 }
 
 let baseHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
-const DOMAIN = "https://auraprivacy.com";
+const DOMAIN = "https://aura-privacy.vercel.app";
 
 // 0. Corregir las rutas del logo globalmente en el archivo raíz (index.html)
 // Esto arregla definitivamente el comportamiento de `npm run preview` y los fallbacks de SPA
