@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencias (¡Muy importante ignorarlo!)
+node_modules/
+
+# Archivos de compilación de Producción
+dist/
+dist-ssr/
+
+# Variables de entorno (Seguridad)
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema y editores
+.DS_Store
+.vscode/
+.idea/
+*.suo
